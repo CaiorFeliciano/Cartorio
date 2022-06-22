@@ -1,0 +1,133 @@
+.root {
+    --azul-fonte: #073577;
+    --cinza-fundo: #eaebe3;
+}
+body {
+    background-color: #eaebe3;
+}
+li {
+    list-style-type: none;
+}
+.menu {
+    display: flex;
+    margin: 2em;
+    align-items: center;
+    justify-content: space-between;
+}
+.menu__lista{
+    display: flex;
+    align-items: flex-end;
+}
+.menu__lista-item {
+    text-align: center;
+    padding: 2em;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #073577;
+    font-weight: 700;
+}
+.menu__logo-imagem {
+    width: 200px;
+}
+.pesquisa {
+    background-color: transparent;
+    border: 1px solid #073577;
+    border-radius: 24px;
+    padding: 1em;
+    align-items: bottom;
+    width: 50%;
+    height: 1em;
+}
+.pesquisa::placeholder {
+    font-weight: 400;
+    color: #073577;
+    background: url("../img/Lupa.svg") no-repeat;
+    background-position: 42em;
+}
+.banner {
+    position: relative;
+}
+.banner__imagem {
+    width: 100%;
+}
+.banner__titulo, .banner__sub-titulo {
+    color: #eaebe3;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    text-shadow: 0 10px 10px rgba(0,0,0,0.75);
+    text-align: center;
+    transform: translate(-50%, -50%);
+    width: 100%;
+}
+.banner__titulo {
+    font-size: 7rem;
+    padding-bottom: 3rem;
+    font-family: Playfair Display;
+}
+.banner__sub-titulo {
+    font-size: 3rem;
+    font-family: Charm;
+    padding-top: 3rem;
+    -webkit-text-stroke: 0.5px #000000; 
+}
+.tabeliao {
+    display: flex;
+    margin: 2em;
+    background-color: #ffffff;
+    padding: 2em;
+    text-align: center;
+    align-items: center;
+    border-radius: 10px;
+    box-shadow: #073577 1px 1px 3px 3px;
+}
+.foto__tabeliao {
+    width: 20%;
+}
+.fala__tabeliao {
+    margin-left: 1em;
+    font-size: 2.5em;
+    font-family: Charm;
+}
+.nome__tabeliao {
+    position: absolute;
+    margin-left: 2.5em;
+    margin-top: 24em;
+}
+.informacoes {
+    display: flex;
+    text-align:right;
+    margin: 2em;
+    background-color: #ffffff;
+    margin: 3em;
+    padding: 3em;
+    border-radius: 10px;
+}
+.mapa {
+    margin-left: 15em;
+}
+
+.informações__lista-titulo {
+    font-weight: 700;
+    color: #073577;
+    font-size: 2.75em;
+    margin-bottom: 1em;
+    text-align: left;
+    margin-left: 1em;
+}
+.informações__lista-itens {
+    font-size: 1em;
+    color: #073577;
+    padding: 2.5em;
+    text-align: left;
+    align-items: center;
+
+}
+.rodape {
+    text-align: center;
+    background-color: #073577;
+    padding: 2em;
+    color: #eaebe3;
+    font-size: 13px;
+
+}
